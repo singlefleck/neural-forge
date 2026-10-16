@@ -1,0 +1,29 @@
+
+{
+  "booking": {
+    "hotel": "Grand Palace",
+    "price": 12000,
+    "room_type": "Deluxe",
+    "refundable": true
+  },
+  "supplier_rates": [
+    {
+      "supplier": "Supplier A",
+      "price": 9500,
+      "room_type": "Deluxe",
+      "refundable": true
+    },
+    {
+      "supplier": "Supplier B",
+      "price": 8700,
+      "room_type": "Standard",
+      "refundable": true
+    },
+    {
+      "supplier": "Supplier C",
+      "price": 11000,
+      "room_type": "Deluxe",
+      "refundable": true
+    }
+  ]
+}
