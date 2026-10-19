@@ -17,3 +17,12 @@ def health():
 @app.get("/hello")
 def hello():
     return {"message": "Hello, NeuralForge!"}
+
+
+@app.get("/search")
+def search_hotels(city: str, max_price: int = None):
+    return {
+        "city": city,
+        "max_price": max_price,
+        "hotels": []
+    }
